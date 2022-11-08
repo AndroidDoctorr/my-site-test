@@ -1,4 +1,3 @@
-
 import experience from './experience.json';
 import education from './education.json';
 import certifications from './certifications.js';

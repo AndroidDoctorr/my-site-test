@@ -6,7 +6,7 @@ function Section(props) {
         <div className='section-title'>
             <h2>{props.title}</h2>
         </div>
-        <div className='section-items'>
+        <div>
             {props.data.map(
               item => { return props.template({ item }) }
             )}
