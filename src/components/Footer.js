@@ -12,7 +12,7 @@ function ChangeTheme() {
 function Footer() {
     return (
         <div className='footer'>
-            <a href='../Andrew_Torr_Resume.pdf'>Download Resume</a>
+            <a href={require("../Andrew_Torr_Resume.pdf")} download>Download Resume</a>
             <div className='footer-buttons'>
                 <button onClick={() => ToggleNinetiesMode()}>
                     <FontAwesomeIcon icon={faClock} />
