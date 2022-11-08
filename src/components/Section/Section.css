@@ -1,0 +1,19 @@
+.section {
+
+}
+
+.section-title {
+    background-color:#a4c2f4;
+    color: black;
+    text-align: center;
+    display: flex;
+}
+
+.section-title > h2 {
+    flex: 1;
+    margin: 1rem 0;
+}
+
+.section-items {
+    padding: 1rem;
+}
