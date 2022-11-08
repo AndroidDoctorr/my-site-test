@@ -1,4 +1,3 @@
-import './Body.css';
 import Section from '../Section/Section';
 import Experience from '../Experience/Experience';
 import Certification from '../Certification/Certification';

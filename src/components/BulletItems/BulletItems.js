@@ -1,5 +1,3 @@
-import './BulletItems.css';
-
 function Section(props) {
     return (
         <ul className='bulletItems-section'>

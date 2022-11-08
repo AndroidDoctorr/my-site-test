@@ -1,5 +1,3 @@
-import './Experience.css';
-
 function Role(props) {
     return (
         <div className='role'>

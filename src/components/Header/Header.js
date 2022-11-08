@@ -1,4 +1,3 @@
-import './Header.css';
 import basicInfo from '../../data/basic-info.json';
 const me = require('../../assets/portraits/me-blue.jpg');
 

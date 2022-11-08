@@ -1,5 +1,3 @@
-import './Certification.css';
-
 function Certification(props) {
     return (
         <div className='certification'>

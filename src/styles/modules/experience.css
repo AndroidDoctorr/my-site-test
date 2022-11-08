@@ -25,28 +25,3 @@
     flex: 1;
     padding: 0 0.5rem;
 }
-
-.role {
-    display: flex;
-}
-
-.role-info {
-    flex: 80%;
-}
-
-.role-title {
-    margin: 0.5rem 0;
-    color: #555;
-}
-
-.role-duties {
-    margin: 0.5rem 0;
-    padding-inline-start: 2rem;
-}
-
-.role-date {
-    flex: 20%;
-    font-weight: 600;
-    padding-top: 0.5rem;
-    text-align: right;
-}
