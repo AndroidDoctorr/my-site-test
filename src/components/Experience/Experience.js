@@ -3,7 +3,7 @@ import './Experience.css';
 function Experience(props) {
     return (
         <div className='experience'>
-            <h3 className='experience-title'></h3>
+            <h3 className='experience-title'>{props.item.title}</h3>
             <div className='experience-body'>
                 <div className='experience-color'></div>
                 <div className='experience-roles'>

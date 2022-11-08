@@ -7,7 +7,9 @@ function Section(props) {
             <h2>{props.title}</h2>
         </div>
         <div className='section-items'>
-            {props.template}
+            {props.data.map(
+              item => { return props.template({ item }) }
+            )}
         </div>
     </div>
   );
