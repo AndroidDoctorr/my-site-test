@@ -10,28 +10,23 @@ function Body() {
         <div>
             <Section
                 title={"Professional Experience"}
-                template={Experience}
-                data={data.experience}
+                template={<Experience data={data.experience} />}
             />
             <Section
                 title={"Education"}
-                template={Experience}
-                data={data.education}
+                template={<Experience data={data.education}/>}
             />
             <Section
                 title={"Certifications"}
-                template={Certification}
-                data={data.certifications}
+                template={<Certification data={data.certifications}/>}
             />
             <Section
                 title={"Personal Projects"}
-                template={Experience}
-                data={data.personalProjects}
+                template={<Experience data={data.personalProjects}/>}
             />
             <Section
                 title={"Skills/Technologies"}
-                template={BulletItems}
-                data={data.skills}
+                template={<BulletItems data={data.skills}/>}
             />
         </div>
     );

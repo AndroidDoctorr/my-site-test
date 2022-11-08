@@ -7,7 +7,7 @@ function Section(props) {
             <h2>{props.title}</h2>
         </div>
         <div className='section-items'>
-                
+            {props.template}
         </div>
     </div>
   );

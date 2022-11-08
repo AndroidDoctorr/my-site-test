@@ -1,6 +1,6 @@
 import './Experience.css';
 
-function Experience() {
+function Experience(props) {
     return (
         <div className='experience'>
             <h3 className='experience-title'></h3>
