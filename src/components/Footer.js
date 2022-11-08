@@ -16,11 +16,11 @@ function Footer() {
             <div className='footer-buttons'>
                 <button onClick={() => ToggleNinetiesMode()}>
                     <FontAwesomeIcon icon={faClock} />
-                    {"90's Mode"}
+                    <span>{"90's Mode"}</span>
                 </button>
                 <button onClick={() => ChangeTheme()}>
                     <FontAwesomeIcon icon={faRandom} />
-                    {"Theme"}
+                    <span>{"Theme"}</span>
                 </button>
             </div>
         </div>
