@@ -39,7 +39,7 @@
     },
     {
         "title": "Turnitin",
-        "color": "#85200c",
+        "color": "#3c78d8",
         "roles": [
             {
                 "title": "Software Engineer",
@@ -55,7 +55,7 @@
     },
     {
         "title": "VeriCite",
-        "color": "#85200c",
+        "color": "#cc4125",
         "roles": [
             {
                 "title": "Software Engineer",
@@ -70,7 +70,7 @@
     },
     {
         "title": "Eleven Fifty Consulting",
-        "color": "#85200c",
+        "color": "#274e13",
         "roles": [
             {
                 "title": "Apprentice Coder",
@@ -86,7 +86,7 @@
     },
     {
         "title": "The Orchard School",
-        "color": "#85200c",
+        "color": "#38761d",
         "roles": [
             {
                 "title": "Teacher",
