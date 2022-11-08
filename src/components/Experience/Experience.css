@@ -7,8 +7,15 @@
     padding: 0 1rem;
 }
 
-.experience-color {
+.experience-colorBar {
     width: 1rem;
+    padding: 0.25rem;
+}
+
+.experience-color {
+    background-color: red;
+    width: 100%;
+    height: 100%;
 }
 
 .experience-roles {
@@ -24,7 +31,7 @@
 }
 
 .role-title {
-    
+    margin: 0.5rem 0;
 }
 
 .role-duties {
