@@ -3,7 +3,7 @@
         "title": "Eleven Fifty Academy",
         "roles": [
             {
-                "job-title": "Java/Android Immersion",
+                "title": "Java/Android Immersion",
                 "dates": "Jun 2015 - Aug 2015",
                 "duties": [
                     "Learned the basics of OOP, mobile development, and Agile",
@@ -18,7 +18,7 @@
         "title": "Indiana University (at IUPUI)",
         "roles": [
             {
-                "job-title": "Physics (Bachelor's)",
+                "title": "Physics (Bachelor's)",
                 "dates": "Aug 2008 - May 2011",
                 "duties": [
                     "Minored in Mathematics",

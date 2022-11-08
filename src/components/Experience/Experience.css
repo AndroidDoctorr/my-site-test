@@ -1,0 +1,24 @@
+.experience-body {
+    display: flex;
+}
+
+.experience-color {
+    width: 20px;
+    flex: 0;
+}
+
+.experience-roles {
+    flex: 1;
+}
+
+.role {
+
+}
+
+.role-duties {
+
+}
+
+.role-date {
+    
+}

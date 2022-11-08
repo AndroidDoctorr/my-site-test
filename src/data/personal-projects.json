@@ -3,7 +3,7 @@
         "title": "Unity",
         "roles": [
             {
-                "job-title": "Bubble Siege",
+                "title": "Bubble Siege",
                 "dates": "",
                 "duties": [
                     "A complete Virtual Reality game using the SteamVR Input library",
@@ -20,7 +20,7 @@
         "title": "React Native",
         "roles": [
             {
-                "job-title": "GeoPad",
+                "title": "GeoPad",
                 "dates": "",
                 "duties": [
                     "Uses an ExpressJS API hosted on Google Firebase for the back-end",

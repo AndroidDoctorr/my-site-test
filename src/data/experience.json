@@ -3,7 +3,7 @@
         "title": "Eleven Fifty Academy",
         "roles": [
             {
-                "job-title": "Curriculum Manager",
+                "title": "Curriculum Manager",
                 "dates": "Jan 2022 - Sep 2022",
                 "duties": [
                     "Built new C#/.NET curriculum to introduce Blazor",
@@ -14,7 +14,7 @@
                 ]
             },
             {
-                "job-title": "Senior Instructor",
+                "title": "Senior Instructor",
                 "dates": "Mar 2021 - Jan 2022",
                 "duties": [
                     "Taught Software Development (C#/.NET) courses - over 130 students across 6 classes",
@@ -24,7 +24,7 @@
                 ]
             },
             {
-                "job-title": "Instructor",
+                "title": "Instructor",
                 "dates": "Jan 2020 - Mar 2021",
                 "duties": [
                     "Taught Software Development (C#/.NET) courses - over 100 students across 5 courses",
@@ -40,7 +40,7 @@
         "title": "Turnitin",
         "roles": [
             {
-                "job-title": "Software Engineer",
+                "title": "Software Engineer",
                 "dates": "Feb 2018 - Jan 2020",
                 "duties": [
                     "Worked on front end for MOSS code similarity using React and Sass",
@@ -55,7 +55,7 @@
         "title": "VeriCite",
         "roles": [
             {
-                "job-title": "Software Engineer",
+                "title": "Software Engineer",
                 "dates": "Aug 2016 - Feb 2018",
                 "duties": [
                     "Taught myself React and TypeScript",
@@ -69,7 +69,7 @@
         "title": "Eleven Fifty Consulting",
         "roles": [
             {
-                "job-title": "Apprentice Coder",
+                "title": "Apprentice Coder",
                 "dates": "Aug 2015 - Aug 2016",
                 "duties": [
                     "Worked on projects I was assigned - some in-house, some via commercial contracts. These varied in scope, purpose, and code stack. Apprentices worked with professionals to skill up using real-world projects.",
@@ -84,7 +84,7 @@
         "title": "The Orchard School",
         "roles": [
             {
-                "job-title": "Teacher",
+                "title": "Teacher",
                 "dates": "Sep 2014 - Jun 2015",
                 "duties": [
                     "Taught 5th and 7th Technology classes",
