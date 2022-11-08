@@ -1,10 +1,18 @@
 import './Header.css';
+import basicInfo from '../../data/basic-info.json';
+const me = require('../../assets/me-blue.jpg');
 
 function Header() {
   return (
-    <header>
-      
-    </header>
+    <div className='header'>
+      <div className='header-info'>
+        <h1>{basicInfo.name}</h1>
+        <div>{basicInfo.email}</div>
+        <div>{basicInfo.phone}</div>
+      </div>
+
+      <img src={me} className='i-b'></img>
+    </div>
   );
 }
 
