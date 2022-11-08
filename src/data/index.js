@@ -1,9 +1,9 @@
 
-import experience from '../../data/experience.json';
-import education from '../../data/education.json';
-import certifications from '../../data/certifications.json';
-import personalProjects from '../../data/personal-projects.json';
-import skills from '../../data/skills.json';
+import experience from './experience.json';
+import education from './education.json';
+import certifications from './certifications.json';
+import personalProjects from './personal-projects.json';
+import skills from './skills.json';
 
 export default {
     experience,
