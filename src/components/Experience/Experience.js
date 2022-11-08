@@ -26,7 +26,10 @@ function Experience(props) {
             <h3 className='experience-title'>{props.item.title}</h3>
             <div className='experience-body'>
                 <div className='experience-colorBar'>
-                    <div className='experience-color'></div>
+                    <div
+                        className='experience-color'
+                        style={{ backgroundColor: props.item.color }}
+                    ></div>
                 </div>
                 <div className='experience-roles'>
                     {props.item.roles.map(
