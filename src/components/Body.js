@@ -1,8 +1,8 @@
-import Section from '../Section/Section';
-import Experience from '../Experience/Experience';
-import Certification from '../Certification/Certification';
-import BulletItems from '../BulletItems/BulletItems';
-import data from '../../data';
+import Section from './Section';
+import Experience from './Experience';
+import Certification from './Certification';
+import BulletItems from './BulletItems';
+import data from '../data';
 
 function Body() {
     return (
