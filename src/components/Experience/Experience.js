@@ -2,13 +2,15 @@ import './Experience.css';
 
 function Role(props) {
     return (
-        <div>
-            <h4 className='role'>
-                {props.role.title}
-            </h4>
-            <ul className='role-duties'></ul>
+        <div className='role'>
+            <div className='role-info'>
+                <h4 className='role-title'>
+                    {props.role.title}
+                </h4>
+                <ul className='role-duties'></ul>
+            </div>
             <div className='role-date'>
-                {props.role.date}
+                {props.role.dates}
             </div>
         </div>
     );

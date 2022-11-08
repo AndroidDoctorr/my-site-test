@@ -1,10 +1,14 @@
 .experience-body {
     display: flex;
+    padding: 0 1rem;
+}
+
+.experience-title {
+    padding: 0 1rem;
 }
 
 .experience-color {
-    width: 20px;
-    flex: 0;
+    width: 1rem;
 }
 
 .experience-roles {
@@ -12,7 +16,15 @@
 }
 
 .role {
+    display: flex;
+}
 
+.role-info {
+    flex: 80%;
+}
+
+.role-title {
+    
 }
 
 .role-duties {
@@ -20,5 +32,5 @@
 }
 
 .role-date {
-    
+    flex: 20%;
 }
