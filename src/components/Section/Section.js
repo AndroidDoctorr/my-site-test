@@ -1,6 +1,4 @@
 import './Section.css';
-import basicInfo from '../../data/basic-info.json';
-const me = require('../../assets/me-blue.jpg');
 
 function Section(props) {
   return (
