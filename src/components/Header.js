@@ -1,5 +1,5 @@
 import basicInfo from '../data/basic-info.json';
-const me = require('../../assets/portraits/me-blue.jpg');
+const me = require('../assets/portraits/me-blue.jpg');
 
 function Header() {
   return (
