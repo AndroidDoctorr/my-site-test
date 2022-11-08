@@ -1,0 +1,24 @@
+.certification {
+    display: flex;
+    padding: 0.5rem 0;
+}
+
+.certification-title {
+    flex: 50%;
+}
+
+.certification-icon {
+    flex: 25%;
+    text-align: center;
+}
+
+.certification-icon > img {
+    width: 80px;
+    height: 80px;
+}
+
+.certification-date {
+    flex: 25%;
+    padding-top: 1rem;
+    font-weight: 500;
+}
