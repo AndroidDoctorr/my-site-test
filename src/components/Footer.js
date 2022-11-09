@@ -1,37 +1,20 @@
-import { useState } from 'react';
-import { ColorThemeContext, colors } from '../context/colorThemeContext';
+import { useContext } from 'react';
+import { ColorThemeContext } from '../context/colorThemeContext';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRandom, faClock } from "@fortawesome/free-solid-svg-icons";
 
-function ToggleNinetiesMode() {
-
-}
-
-function GetNextThemeColorIndex(color) {
-    let colorIndex = colors.indexOf(color)
-    colorIndex++
-    if (colorIndex >= colors.length) {
-        colorIndex = 0
-    }
-    return colorIndex
-}
-
 function Footer() {
-    let [color, setColorTheme] = useState(ColorThemeContext)
+    let {getNextTheme} = useContext(ColorThemeContext)
 
     return (
         <div className='footer'>
             <a href={require("../Andrew_Torr_Resume.pdf")} download>Download Resume</a>
             <div className='footer-buttons'>
-                <button onClick={() => ToggleNinetiesMode()}>
+                <button onClick={() => {}}>
                     <FontAwesomeIcon icon={faClock} />
                     <span>{"90's Mode"}</span>
                 </button>
-                <button onClick={() => {
-                    let colorIndex = GetNextThemeColorIndex(color)
-                    setColorTheme(colors[colorIndex])
-                    console.log(colors[colorIndex])
-                }}>
+                <button onClick={getNextTheme}>
                     <FontAwesomeIcon icon={faRandom} />
                     <span>{"Theme"}</span>
                 </button>

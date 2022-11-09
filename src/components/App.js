@@ -1,11 +1,11 @@
 import Header from './Header';
 import Body from './Body';
 import Footer from './Footer';
-import { ColorThemeContext, colors } from '../context/colorThemeContext';
+import { ColorThemeContextProvider } from '../context/colorThemeContext';
 
 function App() {
   return (
-    <ColorThemeContext.Provider value={colors[0]}>
+    <ColorThemeContextProvider>
       <div className='app'>
         <div className='app-page'>
           <Header />
@@ -13,7 +13,7 @@ function App() {
         </div>
         <Footer />
       </div>
-    </ColorThemeContext.Provider>
+    </ColorThemeContextProvider>
     
   );
 }
