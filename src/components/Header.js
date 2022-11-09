@@ -14,7 +14,10 @@ function Header() {
 				<div>{basicInfo.phone}</div>
 			</div>
 
-			<img src={require('../assets/portraits/me-' + theme.color + '.jpg')}></img>
+			<img
+				src={require('../assets/portraits/me-' + theme.color + '.jpg')}
+				alt='me - a bearded man in a blue t-shirt, smiling'
+			/>
 		</div>
 	)
 }
