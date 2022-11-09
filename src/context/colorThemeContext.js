@@ -1,7 +1,7 @@
-import React, { createContext, useState } from 'react';
-export const colors = ["blue", "green", "red"];
+import React, { createContext, useState } from 'react'
+export const colors = ["blue", "green", "red"]
 
-export const ColorThemeContext = createContext();
+export const ColorThemeContext = createContext()
 
 export const ColorThemeContextProvider = (props) => {
     const [color, setTheme] = useState(colors[0])

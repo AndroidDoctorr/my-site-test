@@ -1,6 +1,6 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState } from 'react'
 
-export const NinetiesModeContext = createContext();
+export const NinetiesModeContext = createContext()
 
 export const NinetiesModeContextProvider = (props) => {
     const [isNinetiesMode, setNinetiesMode] = useState(false)

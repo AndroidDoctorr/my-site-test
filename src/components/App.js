@@ -1,7 +1,7 @@
-import Header from './Header';
-import Body from './Body';
-import Footer from './Footer';
-import { ColorThemeContextProvider } from '../context/colorThemeContext';
+import Header from './Header'
+import Body from './Body'
+import Footer from './Footer'
+import { ColorThemeContextProvider } from '../context/colorThemeContext'
 
 function App() {
   return (
@@ -14,8 +14,7 @@ function App() {
         <Footer />
       </div>
     </ColorThemeContextProvider>
-    
-  );
+  )
 }
 
-export default App;
+export default App

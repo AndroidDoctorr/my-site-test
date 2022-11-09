@@ -1,7 +1,7 @@
-import { useContext } from 'react';
-import { ColorThemeContext } from '../context/colorThemeContext';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRandom, faClock } from "@fortawesome/free-solid-svg-icons";
+import { useContext } from 'react'
+import { ColorThemeContext } from '../context/colorThemeContext'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faRandom, faClock } from "@fortawesome/free-solid-svg-icons"
 
 function Footer() {
     let {getNextTheme} = useContext(ColorThemeContext)
@@ -23,4 +23,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Footer

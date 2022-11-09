@@ -1,6 +1,6 @@
-import { useContext } from 'react';
-import { ColorThemeContext } from '../context/colorThemeContext';
-import classNames from 'classnames';
+import { useContext } from 'react'
+import { ColorThemeContext } from '../context/colorThemeContext'
+import classNames from 'classnames'
 
 function Section(props) {
   const theme = useContext(ColorThemeContext)
@@ -19,4 +19,4 @@ function Section(props) {
   );
 }
 
-export default Section;
+export default Section

@@ -16,4 +16,4 @@ function Certification(props) {
     );
 }
 
-export default Certification;
+export default Certification

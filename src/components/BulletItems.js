@@ -5,7 +5,7 @@ function Section(props) {
                 return <li>{item}</li>
             })}
         </ul>
-    );
+    )
 }
 
 function BulletItems(props) {
@@ -15,7 +15,7 @@ function BulletItems(props) {
                 return <Section section={section} />
             })}
         </div>
-    );
+    )
 }
 
-export default BulletItems;
+export default BulletItems

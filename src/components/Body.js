@@ -1,8 +1,8 @@
-import Section from './Section';
-import Experience from './Experience';
-import Certification from './Certification';
-import BulletItems from './BulletItems';
-import data from '../data';
+import Section from './Section'
+import Experience from './Experience'
+import Certification from './Certification'
+import BulletItems from './BulletItems'
+import data from '../data'
 
 function Body() {
     return (
@@ -33,7 +33,7 @@ function Body() {
                 data={data.skills}
             />
         </div>
-    );
+    )
 }
 
-export default Body;
+export default Body
