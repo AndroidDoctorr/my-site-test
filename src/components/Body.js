@@ -8,27 +8,27 @@ function Body() {
     return (
         <div>
             <Section
-                title={"Professional Experience"}
+                title={'Professional Experience'}
                 template={Experience}
                 data={data.experience}
             />
             <Section
-                title={"Education"}
+                title={'Education'}
                 template={Experience}
                 data={data.education}
             />
             <Section
-                title={"Certifications"}
+                title={'Certifications'}
                 template={Certification}
                 data={data.certifications}
             />
             <Section
-                title={"Personal Projects"}
+                title={'Personal Projects'}
                 template={Experience}
                 data={data.personalProjects}
             />
             <Section
-                title={"Skills/Technologies"}
+                title={'Skills/Technologies'}
                 template={BulletItems}
                 data={data.skills}
             />

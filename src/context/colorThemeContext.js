@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react'
-export const colors = ["blue", "green", "red"]
+export const colors = ['blue', 'green', 'red']
 
 export const ColorThemeContext = createContext()
 

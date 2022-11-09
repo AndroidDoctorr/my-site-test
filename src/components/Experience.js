@@ -1,6 +1,6 @@
 import Role from './Role'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faExternalLink } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLink } from '@fortawesome/free-solid-svg-icons'
 
 function Experience(props) {
     return (
@@ -8,7 +8,7 @@ function Experience(props) {
             <h3 className='experience-title'>
                 {props.item.title}
                 {props.item.url &&
-                    <a href={props.item.url} target="_blank" rel="noopener noreferrer">
+                    <a href={props.item.url} target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faExternalLink} />
                     </a>
                 }

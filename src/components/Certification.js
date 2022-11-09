@@ -4,8 +4,8 @@ function Certification(props) {
             <div className='certification-icon'>
                 <a
                     href={props.item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target='_blank'
+                    rel='noopener noreferrer'
                 >
                     <img
                         src={props.item.image}
