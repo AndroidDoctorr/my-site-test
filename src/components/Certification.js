@@ -2,7 +2,9 @@ function Certification(props) {
     return (
         <div className='certification'>
             <div className='certification-icon'>
-                <img src={props.item.image}></img>
+                <a href={props.item.url} target="_blank" noopener noreferrer>
+                    <img src={props.item.image}></img>
+                </a>
             </div>
             <h3 className='certification-title'>
                 {props.item.title}
