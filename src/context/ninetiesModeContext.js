@@ -7,6 +7,7 @@ export const NinetiesModeContextProvider = (props) => {
 
     const toggleNinetiesMode = () => {
         setNinetiesMode(!isNinetiesMode)
+        console.log(isNinetiesMode)
     }
     
     return (

@@ -1,22 +1,21 @@
+import { useContext } from 'react'
+import { NinetiesModeContext } from '../context/ninetiesModeContext'
+import classNames from 'classnames'
 import Header from './Header'
 import Body from './Body'
 import Footer from './Footer'
-import { ColorThemeContextProvider } from '../context/colorThemeContext'
-import { NinetiesModeContextProvider } from '../context/ninetiesModeContext'
 
 function App() {
+	const isNinetiesMode = useContext(NinetiesModeContext)
+
 	return (
-		<ColorThemeContextProvider>
-			<NinetiesModeContextProvider>
-				<div className='app'>
-					<div className='app-page'>
-						<Header />
-						<Body />
-					</div>
-					<Footer />
-				</div>
-			</NinetiesModeContextProvider>
-		</ColorThemeContextProvider>
+		<div className={classNames('app', isNinetiesMode && 'nineties')}>
+			<div className='app-page'>
+				<Header />
+				<Body />
+			</div>
+			<Footer />
+		</div>
 	)
 }
 
