@@ -1,14 +1,18 @@
 @use '../variables' as v
 
 .header
-    background-color: v.$blue-dark
     color: white
     display: flex
     img
         flex: 0
         padding: 0.25rem
         height: 10rem
-
+    &.blue
+        background-color: v.$blue-dark
+    &.green
+        background-color: v.$green-dark
+    &.red
+        background-color: v.$red-dark
     &-info
         flex: 1
         padding-left: 1rem

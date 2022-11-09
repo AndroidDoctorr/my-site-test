@@ -4,10 +4,10 @@ export const colors = ["blue", "green", "red"];
 export const ColorThemeContext = createContext();
 
 export const ColorThemeContextProvider = (props) => {
-    const [theme, setTheme] = useState(colors[0])
+    const [color, setTheme] = useState(colors[0])
 
     const getNextTheme = () => {
-        let colorIndex = colors.indexOf(theme)
+        let colorIndex = colors.indexOf(color)
         colorIndex++
         if (colorIndex >= colors.length) {
             colorIndex = 0
@@ -16,7 +16,7 @@ export const ColorThemeContextProvider = (props) => {
     }
     
     return (
-        <ColorThemeContext.Provider value={{ theme, getNextTheme }}>
+        <ColorThemeContext.Provider value={{ color, getNextTheme }}>
             {props.children}
         </ColorThemeContext.Provider>
     )
