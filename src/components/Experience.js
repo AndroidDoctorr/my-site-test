@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+
 function Role(props) {
     return (
         <div className='role'>
@@ -21,7 +24,14 @@ function Role(props) {
 function Experience(props) {
     return (
         <div className='experience'>
-            <h3 className='experience-title'>{props.item.title}</h3>
+            <h3 className='experience-title'>
+                {props.item.title}
+                {props.item.url &&
+                    <a href={props.item.url} target="_blank" noopener noreferrer>
+                        <FontAwesomeIcon icon={faExternalLink} />
+                    </a>
+                }
+            </h3>
             <div className='experience-body'>
                 <div className='experience-colorBar'>
                     <div
