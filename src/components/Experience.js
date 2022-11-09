@@ -8,7 +8,7 @@ function Experience(props) {
             <h3 className='experience-title'>
                 {props.item.title}
                 {props.item.url &&
-                    <a href={props.item.url} target="_blank" noopener noreferrer>
+                    <a href={props.item.url} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faExternalLink} />
                     </a>
                 }
