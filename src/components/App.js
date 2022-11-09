@@ -6,7 +6,7 @@ import Body from './Body'
 import Footer from './Footer'
 
 function App() {
-	const isNinetiesMode = useContext(NinetiesModeContext)
+	const {isNinetiesMode} = useContext(NinetiesModeContext)
 
 	return (
 		<div className={classNames('app', isNinetiesMode && 'nineties')}>
